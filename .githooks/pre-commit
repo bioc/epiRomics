@@ -27,7 +27,6 @@ bad_patterns+='|(^|/)Meta/|(^|/)inst/doc/|(^|/)doc/'
 bad_patterns+='|(^|/)docs/|(^|/)vignettes/.*_cache/|(^|/)vignettes/.*_files/'
 bad_patterns+='|(^|/)src/[^/]+\.(o|so|dll)$'
 bad_patterns+='|(^|/)\.planning/|(^|/)\.tasks/|(^|/)RESPONSE-RUBRIC\.md$|(^|/)REVIEWER-FEEDBACK\.md$'
-# AI / LLM assistant artefacts — never ship these to Bioconductor or GitHub.
 bad_patterns+='|(^|/)\.claude/|(^|/)CLAUDE\.md$|(^|/)AGENTS\.md$|(^|/)GEMINI\.md$|(^|/)\.cursor/|(^|/)\.cursorrules$'
 bad_patterns+='|(^|/)\.aider[^/]*|(^|/)\.continue/|(^|/)\.windsurf[^/]*|(^|/)\.codeium/|(^|/)\.copilot[^/]*'
 bad_patterns+='|(^|/)\.github/copilot[^/]*|(^|/)\.chatgpt[^/]*|(^|/)\.anthropic[^/]*|(^|/)\.openai[^/]*'

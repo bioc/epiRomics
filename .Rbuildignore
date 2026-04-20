@@ -1,5 +1,6 @@
 # GitHub and CI
 ^\.github$
+^\.githooks$
 ^codecov\.yml$
 ^CODE_OF_CONDUCT\.md$
 
@@ -53,28 +54,3 @@
 ^.*\.DS_Store$
 ^Thumbs\.db$
 ^Desktop\.ini$
-
-# Local-only planning / fork assets that must never enter the tarball
-^\.planning$
-^\.tasks$
-^RESPONSE-RUBRIC\.md$
-^REVIEWER-FEEDBACK\.md$
-
-# AI / LLM assistant artefacts — never ship these to Bioconductor
-^\.claude$
-^CLAUDE\.md$
-^AGENTS\.md$
-^GEMINI\.md$
-^\.cursor$
-^\.cursorrules$
-^\.aider.*$
-^\.continue$
-^\.windsurf.*$
-^\.codeium$
-^\.copilot.*$
-^\.chatgpt.*$
-^\.anthropic.*$
-^\.openai.*$
-^\.githooks$
-^\.ruff_cache$
-^\.gitattributes$

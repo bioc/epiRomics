@@ -1,7 +1,7 @@
 Package: epiRomics
 Type: Package
 Title: Epigenomic Analysis Package Built for R (epiRomics)
-Version: 1.0.0
+Version: 1.1.0
 Authors@R:
     c(person(given = "Alex M.",
              family = "Mawla",
